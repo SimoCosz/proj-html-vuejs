@@ -1,6 +1,26 @@
 <template>
   <div id="app">
     
+    <!-- Header contact -->
+
+    <!-- Jumbotron + navbar -->
+
+    <!-- Video Section -->
+
+    <!-- Number Data section -->
+
+    <!-- Works Section -->
+
+    <!-- Team section -->
+
+    <!-- News section -->
+
+    <!-- NewsLetter section -->
+
+    <!-- Contacts section -->
+
+    <!-- Footer -->
+
   </div>
 </template>
 
