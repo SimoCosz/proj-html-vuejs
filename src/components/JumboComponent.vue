@@ -4,19 +4,21 @@
     <div class="wrapper">
       <h1 id="title">Financial Risk</h1>
       <p id="description">The right outcomes depend on continous rigor in governance, models, and processes across the finance function</p>
-      <button> Get in touch</button>
-      <button> Read More</button>
+      <BtnGet />
+      <button class="btn-read"> Read More</button>
     </div>
   </div>
 </template>
 
 <script>
 import JumboNav from './JumboNav.vue'
+import BtnGet from './BtnGet.vue'
 
 export default {
   name: 'JumboComponent',
   components:{
     JumboNav,
+    BtnGet,
   },
 
   data(){
@@ -55,6 +57,10 @@ export default {
     #description{
       font-size: 14px;
       color: $grayNurse;
+    }
+
+    .btn-get{
+
     }
   }
 }

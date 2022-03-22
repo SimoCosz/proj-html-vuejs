@@ -2,7 +2,7 @@
   <div class="container">
       <div class="row-navbar">
         <div class="nav-logo">
-          <img src="../assets/img/nexgen-logo.svg" alt="">
+          <img :src="navBar.logo" alt="">
         </div>
         <div class="navbar">
           <ul>
@@ -13,15 +13,20 @@
             <li> {{navBar.blog}} </li>
             <li> <font-awesome-icon icon="fa-regular fa-user" /> </li>
           </ul>
-          <button class="btn-get">Get in touch</button>
+          <BtnGet />
         </div>
       </div>
     </div>
 </template>
 
 <script>
+import BtnGet from '../components/BtnGet.vue'
+
 export default {
   name: 'JumboNav',
+  components: {
+    BtnGet,
+  },
 
   data(){
     return{
@@ -31,6 +36,7 @@ export default {
         service: 'Service',
         team: 'Team',
         blog: 'Blog',
+        logo: require('../assets/img/nexgen-logo.svg')
       }
     }
   }
@@ -59,16 +65,6 @@ export default {
     font-weight: 700;
     color: white;
     font-size: 14px;
-  }
-
-  .btn-get{
-    padding: 10px 20px;
-    background-color: $fountainBlue;
-    color: white;
-    text-transform: uppercase;
-    border: none;
-    border-radius: 3px;
-    font-weight: 700;
   }
 }
 </style>

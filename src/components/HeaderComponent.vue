@@ -10,9 +10,9 @@
             <ul>
               <li> <font-awesome-icon icon="fa-solid fa-phone" /> {{contact.number}} </li>
               <li> <font-awesome-icon icon="fa-solid fa-envelope" /> {{contact.mail}} </li>
-              <!-- <li> <font-awesome-icon icon="fa-brands fa-facebook-f" /> </li>
+              <li> <font-awesome-icon icon="fa-brands fa-facebook-f" /> </li>
               <li> <font-awesome-icon icon="fa-brands fa-twitter" /> </li>
-              <li> <font-awesome-icon icon="fa-brands fa-linkedin-in" /> </li> -->
+              <li> <font-awesome-icon icon="fa-brands fa-linkedin-in" /> </li>
             </ul>
           </div>
         </div>

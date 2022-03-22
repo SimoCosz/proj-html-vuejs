@@ -13,9 +13,9 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { faClock } from '@fortawesome/free-solid-svg-icons'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-// import { faFacebookF } from '@fortawesome/free-solid-svg-icons'
-// import { faTwitter } from '@fortawesome/free-solid-svg-icons'
-// import { faLinkedinIn } from '@fortawesome/free-solid-svg-icons'
+import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import { faUser } from '@fortawesome/free-regular-svg-icons'
 
 
@@ -25,7 +25,7 @@ import { faUser } from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 
-library.add(faClock, faPhone, faEnvelope, faUser)
+library.add(faClock, faPhone, faEnvelope, faUser, faFacebookF, faTwitter, faLinkedinIn)
 
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
