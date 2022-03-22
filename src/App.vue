@@ -13,8 +13,9 @@
 
     <!-- Number Data section -->
     <DataComponent />
-    
+
     <!-- Works Section -->
+    <WorksComponent />
 
     <!-- Team section -->
 
@@ -35,6 +36,7 @@ import HeaderComponent from './components/HeaderComponent.vue'
 import JumboComponent from './components/JumboComponent.vue'
 import IntroductionComponent from './components/IntroductionComponent.vue'
 import DataComponent from './components/DataComponent1.vue'
+import WorksComponent from './components/WorksComponent.vue'
 
 export default {
   name: 'App',
@@ -43,6 +45,7 @@ export default {
     JumboComponent,
     IntroductionComponent,
     DataComponent,
+    WorksComponent,
 
   }
 }
