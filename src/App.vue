@@ -9,7 +9,7 @@
     <JumboComponent />
 
     <!-- Video Section -->
-
+    <IntroductionComponent />
     <!-- Number Data section -->
 
     <!-- Works Section -->
@@ -31,12 +31,15 @@
 <script>
 import HeaderComponent from './components/HeaderComponent.vue'
 import JumboComponent from './components/JumboComponent.vue'
+import IntroductionComponent from './components/IntroductionComponent.vue'
 
 export default {
   name: 'App',
   components: {
     HeaderComponent,
     JumboComponent,
+    IntroductionComponent,
+
   }
 }
 </script>
