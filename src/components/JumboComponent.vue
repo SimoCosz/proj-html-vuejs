@@ -28,6 +28,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/scss/_variabili.scss';
+
 .jumbo{
   height: 600px;
   background-image: url('../assets/img/bg-2.jpg');
@@ -52,7 +54,7 @@ export default {
 
     #description{
       font-size: 14px;
-      color: #e7eee9;;
+      color: $grayNurse;
     }
   }
 }

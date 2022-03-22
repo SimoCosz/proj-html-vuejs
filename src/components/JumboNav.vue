@@ -38,6 +38,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/scss/_variabili.scss';
+
 .row-navbar{
   display: flex;
   justify-content: space-between;
@@ -61,7 +63,7 @@ export default {
 
   .btn-get{
     padding: 10px 20px;
-    background-color: #52babb;
+    background-color: $fountainBlue;
     color: white;
     text-transform: uppercase;
     border: none;

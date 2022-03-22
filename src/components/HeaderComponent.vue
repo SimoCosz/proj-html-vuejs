@@ -39,10 +39,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/scss/_variabili.scss';
 
 .nav{
-  background-color: #048383;
-  color: #e7eee9;
+  background-color: $blueLagoon;
+  color: $grayNurse;
   padding: 10px;
 
   .banner-contacts{
