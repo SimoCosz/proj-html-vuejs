@@ -11,7 +11,7 @@
     <!-- Video Section -->
     <IntroductionComponent />
     <!-- Number Data section -->
-
+    <DataComponent />
     <!-- Works Section -->
 
     <!-- Team section -->
@@ -32,6 +32,7 @@
 import HeaderComponent from './components/HeaderComponent.vue'
 import JumboComponent from './components/JumboComponent.vue'
 import IntroductionComponent from './components/IntroductionComponent.vue'
+import DataComponent from './components/DataComponent1.vue'
 
 export default {
   name: 'App',
@@ -39,6 +40,7 @@ export default {
     HeaderComponent,
     JumboComponent,
     IntroductionComponent,
+    DataComponent,
 
   }
 }
