@@ -65,6 +65,10 @@ export default {
     font-weight: 700;
     color: white;
     font-size: 14px;
+
+    li{
+      cursor: pointer;
+    }
   }
 }
 </style>

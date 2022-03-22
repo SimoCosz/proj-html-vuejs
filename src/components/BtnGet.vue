@@ -19,5 +19,6 @@ export default {
     border: none;
     border-radius: 3px;
     font-weight: 700;
+    cursor: pointer;
   }
 </style>

@@ -4,8 +4,10 @@
     <div class="wrapper">
       <h1 id="title">Financial Risk</h1>
       <p id="description">The right outcomes depend on continous rigor in governance, models, and processes across the finance function</p>
-      <BtnGet />
-      <button class="btn-read"> Read More</button>
+      <div class="button">
+        <BtnGet />
+        <button class="btn-read"> Read More</button>
+      </div>
     </div>
   </div>
 </template>
@@ -35,7 +37,7 @@ export default {
 .jumbo{
   height: 600px;
   background-image: url('../assets/img/bg-2.jpg');
-  background-position: center;
+  background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -59,8 +61,22 @@ export default {
       color: $grayNurse;
     }
 
-    .btn-get{
+    .button{
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 30px;
 
+      .btn-read{
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        padding: 8px 20px;
+        text-transform: uppercase;
+        border-radius: 3px;
+        font-weight: 700;
+        cursor: pointer;
+      }
     }
   }
 }

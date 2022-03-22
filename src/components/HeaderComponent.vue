@@ -53,6 +53,10 @@ export default {
     .contacts{
       display: flex;
       gap: 30px;
+
+      li{
+        cursor: pointer;
+      }
     }
   }
 }
