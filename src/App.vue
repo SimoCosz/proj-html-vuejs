@@ -1,9 +1,12 @@
 <template>
   <div id="app">
-    
-    <!-- Header contact -->
 
+    <!-- Header contact -->
+    <HeaderComponent />
+    
+    <!-- MAIN -->
     <!-- Jumbotron + navbar -->
+    <JumboComponent />
 
     <!-- Video Section -->
 
@@ -19,23 +22,28 @@
 
     <!-- Contacts section -->
 
+
     <!-- Footer -->
 
   </div>
 </template>
 
 <script>
-
+import HeaderComponent from './components/HeaderComponent.vue'
+import JumboComponent from './components/JumboComponent.vue'
 
 export default {
   name: 'App',
   components: {
-
+    HeaderComponent,
+    JumboComponent,
   }
 }
 </script>
 
 <style lang="scss">
+@import './assets/scss/_common.scss';
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

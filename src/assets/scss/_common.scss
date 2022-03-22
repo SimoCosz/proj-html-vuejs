@@ -1,0 +1,28 @@
+$bluelagoon: #048383;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  max-width: 100%;
+}
+
+ul, li {
+  list-style: none;
+}
+
+ul{
+  display: contents;
+}
+
+.container-fluid{
+  width: 100vw;
+}
+
+.container{
+  width: 1024px;
+  margin: 0 auto;
+}
