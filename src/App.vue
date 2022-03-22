@@ -10,8 +10,10 @@
 
     <!-- Video Section -->
     <IntroductionComponent />
+
     <!-- Number Data section -->
     <DataComponent />
+    
     <!-- Works Section -->
 
     <!-- Team section -->

@@ -1,4 +1,5 @@
 @import "~@fontsource/league-spartan/index.css";
+@import '../../assets/scss/variabili';
 
 *{
   margin: 0;
@@ -26,3 +27,10 @@ ul{
   width: 1024px;
   margin: 0 auto;
 }
+
+.section-title{
+  text-transform: uppercase;
+  color: $smaltBlue;
+  margin-bottom: 20px;
+}
+

@@ -1,9 +1,9 @@
 <template>
   <div class="container-fluid">
     <div class="container">
-      <h6 class="section-title"></h6>
-      <h2 class="title"></h2>
-      <div class="data">
+      <h6 class="section-title"> {{sectionTitle}} </h6>
+      <h2 class="title"> <span>Results</span> in Numbers </h2>
+      <div class="data-wrapper">
         <ul>
           <li v-for="(el, i) in data" :key="i">
             <div class="data-number">
@@ -48,5 +48,37 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/scss/_variabili.scss';
 
+.container-fluid{
+  background-image: url('../assets/img/bg-1.jpg');
+  padding: 80px 0;
+  text-align: center;
+  color: white;
+  
+  .title{
+    margin-bottom: 60px;
+    font-weight: 900;
+
+    span{
+      background-color: rgba(white, 0.1);
+      padding: 5px;
+      border-radius: 3px;
+    }
+    
+  }
+    
+  .data-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+
+    .data-number{
+      font-size: 25px;
+      font-weight: 900;
+      color: $surfieGreen;
+      margin-bottom: 10px;
+    }
+  }
+}
 </style>

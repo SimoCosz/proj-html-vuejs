@@ -36,12 +36,6 @@ export default {
   flex-direction: column;
   align-items: center;
 
-  .section-title{
-    text-transform: uppercase;
-    color: $smaltBlue;
-    margin-bottom: 20px;
-  }
-
   .title{
     color: $shark;
     margin-bottom: 20px;
