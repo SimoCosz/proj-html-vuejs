@@ -7,7 +7,7 @@
 
         <section class="info">
           <p> {{description}} </p>
-          <button class="btn-all">See all</button>
+          <BtnSeeAll />
         </section>
 
       <section class="card-container">
@@ -22,11 +22,13 @@
 
 <script>
 import ServiceComponent from './ServiceComponent.vue'
+import BtnSeeAll from './BtnSeeAll.vue'
 
 export default {
   name: 'WorksComponent',
   components: {
     ServiceComponent,
+    BtnSeeAll,
   },
   data(){
     return {
@@ -82,7 +84,7 @@ export default {
 .container-fluid{
   background-color: $woodSmoke;
   color: white;
-  padding: 50px 0;
+  padding: 80px 0;
 
   .container{
     
@@ -107,16 +109,6 @@ export default {
 
       p{
         width: 70%;
-      }
-      
-      .btn-all{
-        background-color: transparent;
-        border: 1px solid $silverSand;
-        border-radius: 3px;
-        color: white;
-        text-transform: uppercase;
-        padding: 5px 10px;
-        cursor: pointer;
       }
     }
 

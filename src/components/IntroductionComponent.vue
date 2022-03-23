@@ -30,7 +30,7 @@ export default {
 @import '../assets/scss/_variabili.scss';
 
 .container{
-  margin: 50px auto;
+  margin: 80px auto;
   text-align: center;
   display: flex;
   flex-direction: column;

@@ -19,12 +19,15 @@
 
     <!-- Team section -->
     <TeamComponent />
-    <!-- News section -->
 
+    <!-- News section -->
+    <NewsComponent />
+    
     <!-- NewsLetter section -->
+    <NewsLetterComponent />
 
     <!-- Contacts section -->
-
+    <ContactComponent />
 
     <!-- Footer -->
 
@@ -38,7 +41,9 @@ import IntroductionComponent from './components/IntroductionComponent.vue'
 import DataComponent from './components/DataComponent1.vue'
 import WorksComponent from './components/WorksComponent.vue'
 import TeamComponent from './components/TeamComponent.vue'
-
+import NewsComponent from './components/NewsComponent.vue'
+import NewsLetterComponent from './components/NewsLetterComponent.vue'
+import ContactComponent from './components/ContactComponent.vue'
 
 export default {
   name: 'App',
@@ -49,6 +54,9 @@ export default {
     DataComponent,
     WorksComponent,
     TeamComponent,
+    NewsComponent,
+    NewsLetterComponent,
+    ContactComponent,
 
   }
 }

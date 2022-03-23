@@ -42,8 +42,8 @@ export default {
 @import '../assets/scss/_variabili.scss';
 
 .nav{
-  background-color: $blueLagoon;
-  color: $grayNurse;
+  background-color: $surfieGreen;
+  color: rgba($grayNurse, 0.8);
   padding: 10px;
 
   .banner-contacts{

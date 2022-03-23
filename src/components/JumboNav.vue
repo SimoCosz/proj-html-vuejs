@@ -63,7 +63,7 @@ export default {
     align-items: center;
     text-transform: uppercase;
     font-weight: 700;
-    color: white;
+    color: rgba($grayNurse, 0.8);
     font-size: 14px;
 
     li{

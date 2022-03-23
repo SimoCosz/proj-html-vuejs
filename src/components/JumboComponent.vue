@@ -58,7 +58,7 @@ export default {
 
     #description{
       font-size: 14px;
-      color: $grayNurse;
+      color: rgba($grayNurse, 0.8);
     }
 
     .button{
