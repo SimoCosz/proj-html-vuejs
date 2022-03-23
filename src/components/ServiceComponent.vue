@@ -37,10 +37,25 @@ export default {
       justify-content: space-between;
       margin-bottom: 20px;
       color: $fountainBlue;
+      cursor: pointer;
 
       .icon{
         font-size: 30px;
       }
+
+      .icon-arrow{
+        display: flex;
+        align-items: center;
+        border-radius: 50%;
+        height: max-content;
+        padding: 5px;
+      }
+
+    }
+
+    &:hover .icon-arrow{
+      background-color: $fountainBlue;
+      color: white;
     }
 
     .card-info{
@@ -54,6 +69,10 @@ export default {
         font-size: 12px;
         color: $silverSand;
       }
+    }
+
+    &:hover .description, &:hover .icon{
+      color: white;
     }
   }
 </style>

@@ -30,7 +30,8 @@
     <ContactComponent />
 
     <!-- Footer -->
-
+    <FooterComponent />
+    <FooterBanner />
   </div>
 </template>
 
@@ -44,6 +45,8 @@ import TeamComponent from './components/TeamComponent.vue'
 import NewsComponent from './components/NewsComponent.vue'
 import NewsLetterComponent from './components/NewsLetterComponent.vue'
 import ContactComponent from './components/ContactComponent.vue'
+import FooterComponent from './components/FooterComponent.vue'
+import FooterBanner from './components/FooterBanner.vue'
 
 export default {
   name: 'App',
@@ -57,7 +60,8 @@ export default {
     NewsComponent,
     NewsLetterComponent,
     ContactComponent,
-
+    FooterComponent,
+    FooterBanner
   }
 }
 </script>

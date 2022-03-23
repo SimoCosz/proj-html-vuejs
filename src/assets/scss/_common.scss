@@ -20,6 +20,11 @@ ul{
   display: contents;
 }
 
+a{
+  text-decoration: none;
+  color: currentColor;
+}
+
 .container-fluid{
   width: 100vw;
 }
@@ -36,3 +41,19 @@ ul{
   font-weight: 700;
 }
 
+.btn-light{
+  background-color: transparent;
+  border: 1px solid $surfieGreen;
+  color: $surfieGreen;
+  padding: 8px 20px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  font-weight: 600;
+  cursor: pointer;
+  
+  &:hover{
+    background-color: $fountainBlue;
+    color: white;
+    border:1px solid $fountainBlue;
+  }
+}

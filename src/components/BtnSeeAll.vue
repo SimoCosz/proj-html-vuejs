@@ -19,5 +19,11 @@ export default {
   text-transform: uppercase;
   padding: 5px 10px;
   cursor: pointer;
+
+  &:hover{
+    background-color: $fountainBlue;
+    color: white;
+    border:1px solid $fountainBlue;
+  }
 }
 </style>

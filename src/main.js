@@ -29,6 +29,8 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { faQuoteRight } from '@fortawesome/free-solid-svg-icons'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
+import { faCopyright } from '@fortawesome/free-regular-svg-icons'
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
@@ -37,7 +39,7 @@ library.add(faClock, faPhone, faEnvelope, faUser,
             faPlay, faSuitcase, faChartSimple,
              faCubes, faPlane, faEarthEurope, faBoxOpen,
              faArrowRight, faQuoteRight, faChevronDown,
-             faLocationDot)
+             faLocationDot, faChevronRight, faCopyright)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 

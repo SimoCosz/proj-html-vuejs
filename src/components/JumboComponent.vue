@@ -76,6 +76,12 @@ export default {
         border-radius: 3px;
         font-weight: 700;
         cursor: pointer;
+
+        &:hover{
+          background-color: $fountainBlue;
+          color: white;
+          border:1px solid $fountainBlue;
+        }
       }
     }
   }

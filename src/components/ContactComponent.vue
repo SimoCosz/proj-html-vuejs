@@ -14,7 +14,7 @@
         <input class="text" type="text" placeholder="Phone">
         <input class="text" type="text" placeholder="More Info">
         <textarea class="text-area" name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-        <button class="btn-send">Send</button>
+        <button class="btn-light">Send</button>
       </div>
     </div>
 
@@ -28,7 +28,7 @@
           {{contact.data}} 
         </span> 
       </div>
-      <button class="btn-map">View Map</button>
+      <button class="btn-light">View Map</button>
     </div>
 
     
@@ -127,19 +127,7 @@ export default {
         border-radius: 5px;
         padding: 5px;
       }
-
-      .btn-send{
-        padding: 8px 20px;
-        background-color: $fountainBlue;
-        color: white;
-        text-transform: uppercase;
-        border: none;
-        border-radius: 3px;
-        font-weight: 700;
-        cursor: pointer;
-      }
     }
-
   }
   .col-5{
     width: 40%;
@@ -161,18 +149,6 @@ export default {
         vertical-align: middle;
         margin: 10px 0;
       }
-
-    }
-    
-    .btn-map{
-      background-color: transparent;
-      border: 1px solid $surfieGreen;
-      color: $surfieGreen;
-      padding: 8px 20px;
-      text-transform: uppercase;
-      border-radius: 3px;
-      font-weight: 600;
-      cursor: pointer;
     }
   }
 }

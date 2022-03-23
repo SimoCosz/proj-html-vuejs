@@ -93,8 +93,15 @@ export default {
       }
 
       .btn{
-        background-color: $surfieGreen;
-        border: none;
+        background-color: transparent;
+        color: $surfieGreen;
+        border: 1px solid $surfieGreen;
+        font-weight: 600;
+        
+        &:hover{
+          background-color: $surfieGreen;
+          color: white;
+        }
       }
     }
 
