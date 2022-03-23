@@ -1,6 +1,13 @@
 @import "~@fontsource/league-spartan/index.css";
-@import '../../assets/scss/variabili';
+@import "~@fontsource/league-spartan/400.css";
+@import "~@fontsource/league-spartan/500.css";
+@import "~@fontsource/league-spartan/600.css";
+@import "~@fontsource/league-spartan/700.css";
+@import "~@fontsource/league-spartan/800.css";
+@import "~@fontsource/league-spartan/900.css";
+@import './variabili.scss';
 
+// Reset
 *{
   margin: 0;
   padding: 0;
@@ -25,6 +32,7 @@ a{
   color: currentColor;
 }
 
+// stilit comuni
 .container-fluid{
   width: 100vw;
 }

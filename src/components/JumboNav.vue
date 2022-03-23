@@ -2,15 +2,13 @@
   <div class="container">
       <div class="row-navbar">
         <div class="nav-logo">
-          <img :src="navBar.logo" alt="">
+          <img :src="logo" alt="">
         </div>
         <div class="navbar">
           <ul>
-            <li> {{navBar.home}} </li>
-            <li> {{navBar.about}} </li>
-            <li> {{navBar.service}} </li>
-            <li> {{navBar.team}} </li>
-            <li> {{navBar.blog}} </li>
+            <li v-for="(el, i) in navBar" :key="i"> 
+              {{el.item}} 
+            </li>
             <li> <font-awesome-icon icon="fa-regular fa-user" /> </li>
           </ul>
           <BtnGet />
@@ -30,14 +28,27 @@ export default {
 
   data(){
     return{
-      navBar: {
-        home: 'Home',
-        about: 'About',
-        service: 'Service',
-        team: 'Team',
-        blog: 'Blog',
-        logo: require('../assets/img/nexgen-logo.svg')
-      }
+      logo: require('../assets/img/nexgen-logo.svg'),
+      navBar: [
+        {
+          item: 'Home',
+        },
+        {
+          item: 'About',
+        },
+        {
+          item: 'Service',
+        },
+        {
+          item: 'Team',
+        },
+        {
+          item: 'Blog',
+        },
+        {
+          item: 'Home',
+        },
+      ]
     }
   }
 }
@@ -66,8 +77,13 @@ export default {
     color: rgba($grayNurse, 0.8);
     font-size: 14px;
 
+
     li{
       cursor: pointer;
+      
+      &:hover{
+        color: white;
+      }
     }
   }
 }

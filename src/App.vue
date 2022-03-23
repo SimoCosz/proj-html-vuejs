@@ -5,33 +5,19 @@
     <HeaderComponent />
     
     <!-- MAIN -->
-    <!-- Jumbotron + navbar -->
     <JumboComponent />
-
-    <!-- Video Section -->
     <IntroductionComponent />
-
-    <!-- Number Data section -->
     <DataComponent />
-
-    <!-- Works Section -->
     <WorksComponent />
-
-    <!-- Team section -->
     <TeamComponent />
-
-    <!-- News section -->
     <NewsComponent />
-    
-    <!-- NewsLetter section -->
     <NewsLetterComponent />
-
-    <!-- Contacts section -->
     <ContactComponent />
 
     <!-- Footer -->
     <FooterComponent />
     <FooterBanner />
+
   </div>
 </template>
 
@@ -70,7 +56,7 @@ export default {
 @import './assets/scss/_common.scss';
 
 #app {
-  font-family: league-spartan, Helvetica, Arial, sans-serif;
+  font-family: 'league-spartan', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

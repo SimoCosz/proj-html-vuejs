@@ -20,8 +20,7 @@
 
     <div class="col-5">
       <h3 class="contact-title">Example Inc.</h3>
-      <p class="contact-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda nostrum possimus id asperiores quas dolores non consequatur libero, eius nihil.</p>
-      <p class="contact-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolor ipsa officiis quas consectetur magni dolore error nihil explicabo officia.</p>
+      <p class="contact-description" v-for="(el, i) in texts" :key="i"> {{el.text}} </p>
       <div class="contact" v-for="(contact, i) in contacts" :key="i">
         <span>
           <font-awesome-icon class="icon" :icon="contact.icon" />
@@ -43,6 +42,14 @@ export default {
     return{
       sectionTitle: 'Send a message',
       description: 'We will respond to your message as soon as possible.',
+      texts: [
+        {
+          text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda nostrum possimus id asperiores quas dolores non consequatur libero, eius nihil.'
+        },
+        {
+          text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolor ipsa officiis quas consectetur magni dolore error nihil explicabo officia.'
+        },
+      ],
       contacts: [
         {
           icon: 'fa-solid fa-phone',

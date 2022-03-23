@@ -15,12 +15,10 @@
     </div>
     <div class="speech">
       <h3>President Speech</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eum consequatur magni!</p>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id illo asperiores harum sed modi at odit molestias architecto sit autem?</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat non at asperiores?</p>
+      <p v-for="(el, i) in speechs" :key="i">{{el.text}}</p>
       <h5 id="author">
-        T. Johnson
-        <font-awesome-icon id="quote" icon="fa-solid fa-quote-right" />
+        {{author}}
+        <font-awesome-icon id="quote" :icon="icon" />
       </h5>
       
     </div>
@@ -40,6 +38,19 @@ components: {
     return{
       sectionTitle: 'We like what we do',
       description: 'Ethics and integrity are the bases on which our professionals build their careers. They are fundamentals that become daily attitudes.',
+      author: 'T. Johnson',
+      icon: 'fa-solid fa-quote-right',
+      speechs: [
+        {
+          text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eum consequatur magni!'
+        },
+        {
+          text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id illo asperiores harum sed modi at odit molestias architecto sit autem?'
+        },
+        {
+          text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat non at asperiores?'
+        },
+      ],
       people: [
         {
           avatar: require('../assets/img/team-1.jpg'),

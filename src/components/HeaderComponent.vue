@@ -1,5 +1,4 @@
 <template>
-  <header class="header">
     <div class="container-fluid nav">
       <div class="container">
         <div class="banner-contacts">
@@ -8,17 +7,12 @@
           </div>
           <div class="contacts">
             <ul>
-              <li> <font-awesome-icon icon="fa-solid fa-phone" /> {{contact.number}} </li>
-              <li> <font-awesome-icon icon="fa-solid fa-envelope" /> {{contact.mail}} </li>
-              <li> <font-awesome-icon icon="fa-brands fa-facebook-f" /> </li>
-              <li> <font-awesome-icon icon="fa-brands fa-twitter" /> </li>
-              <li> <font-awesome-icon icon="fa-brands fa-linkedin-in" /> </li>
+              <li v-for="(icon, i) in icons" :key="i"> <font-awesome-icon :icon="icon.icon" /> {{icon.text}} </li>
             </ul>
           </div>
         </div>
       </div>
     </div>
-  </header>
 </template>
 
 <script>
@@ -29,9 +23,26 @@ export default {
       openHours: 'Mon - Sat - 9.00 - 18.00',
       logoNex: '../assets/img/nexgen-logo.svg',
       contact: {
-        number: '+1(305) 1234-5678',
-        mail: 'hello@example.com',
       },
+      icons: [
+        {
+          icon: 'fa-solid fa-phone',
+          text: '+1(305) 1234-5678',
+        },
+        {
+          icon: 'fa-solid fa-envelope',
+          text: 'hello@example.com',
+        },
+        {
+          icon: 'fa-brands fa-facebook-f'
+        },
+        {
+          icon: 'fa-brands fa-twitter'
+        },
+        {
+          icon: 'fa-brands fa-linkedin-in'
+        },
+      ]
     }
   }
 

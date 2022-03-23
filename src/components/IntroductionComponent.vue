@@ -5,8 +5,8 @@
     <p class="description">{{description}}</p>
     <figure class="video">
       <img :src="video" alt="">
-      <font-awesome-icon class="shadow-play" icon="fa-solid fa-play" />
-      <font-awesome-icon class="main-play" icon="fa-solid fa-play" />
+      <font-awesome-icon class="shadow-play" :icon="iconShadow" />
+      <font-awesome-icon class="main-play" :icon="iconPlay" />
     </figure>
   </div>
 </template>
@@ -19,8 +19,9 @@ export default {
     return{
       sectionTitle: 'Introduction video',
       description: 'Financial executives need to review their strategies, operating models and capabilities so that their areas can generate sound information for better decision macking',
-      video: require('../assets/img/video-1.jpg')
-
+      video: require('../assets/img/video-1.jpg'),
+      iconShadow: 'fa-solid fa-play',
+      iconPlay: 'fa-solid fa-play'
     }
   }
 }

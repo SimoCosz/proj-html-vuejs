@@ -2,8 +2,8 @@
   <div class="jumbo">
     <JumboNav />
     <div class="wrapper">
-      <h1 id="title">Financial Risk</h1>
-      <p id="description">The right outcomes depend on continous rigor in governance, models, and processes across the finance function</p>
+      <h1 id="title">{{title}}</h1>
+      <p id="description">{{description}}</p>
       <div class="button">
         <BtnGet />
         <button class="btn-read"> Read More</button>
@@ -25,7 +25,8 @@ export default {
 
   data(){
     return{
-
+      title: 'Financial risk',
+      description: 'The right outcomes depend on continous rigor in governance, models, and processes across the finance function'
     }
   }
 }
