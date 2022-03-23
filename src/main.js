@@ -25,29 +25,15 @@ import { faPlane } from '@fortawesome/free-solid-svg-icons'
 import { faEarthEurope } from '@fortawesome/free-solid-svg-icons'
 import { faBoxOpen } from '@fortawesome/free-solid-svg-icons'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
-
-
-
-
-
-
-
-
-
-
-
-
-
+import { faQuoteRight } from '@fortawesome/free-solid-svg-icons'
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-
 
 library.add(faClock, faPhone, faEnvelope, faUser, 
             faFacebookF, faTwitter, faLinkedinIn, 
             faPlay, faSuitcase, faChartSimple,
              faCubes, faPlane, faEarthEurope, faBoxOpen,
-             faArrowRight)
-
+             faArrowRight, faQuoteRight)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
