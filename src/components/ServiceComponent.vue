@@ -30,6 +30,7 @@ export default {
     width: calc((100% / 3) - 20px);
     text-align: initial;
     padding: 30px;
+    cursor: pointer;
 
     .icon-wrapper{
       width: 100%;
@@ -37,7 +38,6 @@ export default {
       justify-content: space-between;
       margin-bottom: 20px;
       color: $fountainBlue;
-      cursor: pointer;
 
       .icon{
         font-size: 30px;
