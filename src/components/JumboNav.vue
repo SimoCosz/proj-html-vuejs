@@ -89,7 +89,8 @@ export default {
 
       &.active{
         color: white;
-        font-size: 16px;
+        font-size: 18px;
+        border-bottom: 1px solid white;
       }
     }
   }
