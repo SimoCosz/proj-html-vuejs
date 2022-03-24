@@ -39,7 +39,7 @@ export default {
 
     span{
       color: $surfieGreen;
-      font-weight: 600;
+      font-weight: 700;
     }
   }
 }

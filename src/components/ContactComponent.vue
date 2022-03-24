@@ -136,8 +136,10 @@ export default {
     width: 40%;
 
     .contact-description{
-      margin: 20px 0;
+      margin: 10px 0;
       color: $silverSand;
+      font-size: 12px;
+      width: 70%;
     }
 
     .contact{
@@ -145,6 +147,7 @@ export default {
 
       span{
         cursor: pointer;
+        font-size: 12px;
 
         .icon{
           background-color: rgba($surfieGreen, 0.2);
@@ -153,10 +156,12 @@ export default {
           aspect-ratio: 1/1;
           border-radius: 50%;
           vertical-align: middle;
-          margin: 10px 0;
+          margin: 5px 0;
         }
       }
-
+    }
+    .btn-light{
+      margin-top: 20px;
     }
   }
 }

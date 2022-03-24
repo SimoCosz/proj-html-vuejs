@@ -119,6 +119,7 @@ components: {
     p{
       margin: 20px 0;
       color: $silverSand;
+      font-size: 14px;
     }
 
     #author{

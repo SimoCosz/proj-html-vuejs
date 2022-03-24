@@ -41,17 +41,20 @@ export default {
     width: 80%;
     color: $grayNurse;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 12px;
     z-index: 999;
-    display: none;
+    opacity: 0;
   }
 
   &:hover .writing{
     display: flex;
+    opacity: 1;
+    transition: 300ms ease-in-out;
   }
 
   &:hover img{
-    filter: blur(2px);
+    filter: blur(3px);
+    transition: 300ms ease-in-out;
   }
 
   &::after{
@@ -80,6 +83,7 @@ export default {
 
   &:hover .news{
     top: 50%;
+    transition: 300ms ease-in-out;
   }
 
   .description{
@@ -92,11 +96,14 @@ export default {
     font-size: 15px;
     color: $grayNurse;
     z-index: 999;
-    display: none;
+    opacity: 0;
+    // display: none;
   }
   
   &:hover .description{
-    display: block;
+    // display: block;
+    opacity: 1;
+    transition: 300ms ease-in-out;
   }
 }
 

@@ -56,7 +56,7 @@ export default {
 @import './assets/scss/_common.scss';
 
 #app {
-  font-family: 'league-spartan', Helvetica, Arial, sans-serif;
+  font-family: 'poppins', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

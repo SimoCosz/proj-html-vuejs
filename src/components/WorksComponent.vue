@@ -94,6 +94,7 @@ export default {
       display: inline-block;
       display: flex;
       justify-content: space-between;
+      font-size: 14px;
 
       p{
         width: 70%;
@@ -103,6 +104,7 @@ export default {
     .card-container{
       display: flex;
       flex-wrap: wrap;
+      justify-content: space-around;
       gap: 20px;
     }
   }

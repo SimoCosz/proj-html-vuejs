@@ -99,6 +99,7 @@ export default {
       gap: 20px;
       flex-wrap: wrap;
       align-items: center;
+      justify-content: space-around;
     }
   }
 }

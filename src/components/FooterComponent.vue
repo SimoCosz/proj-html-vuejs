@@ -185,8 +185,9 @@ export default {
       background-color: rgba(white, 0.1);
       padding: 30px;
       border-radius: 8px;
+
       li{
-        margin: 10px 0;
+        margin: 5px 0;
         font-size: 13px;
 
         &:hover{
