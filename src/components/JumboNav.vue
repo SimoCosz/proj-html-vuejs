@@ -6,7 +6,7 @@
         </div>
         <div class="navbar">
           <ul>
-            <li v-for="(el, i) in navBar" :key="i"> 
+            <li v-for="(el, i) in navBar" :key="i" :class=" el.active == true ? 'active' : '' "> 
               {{el.item}} 
             </li>
             <li> <font-awesome-icon icon="fa-regular fa-user" /> </li>
@@ -32,21 +32,23 @@ export default {
       navBar: [
         {
           item: 'Home',
+          active: true,
         },
         {
           item: 'About',
+          active: false,
         },
         {
           item: 'Service',
+          active: false,
         },
         {
           item: 'Team',
+          active: false,
         },
         {
           item: 'Blog',
-        },
-        {
-          item: 'Home',
+          active: false,
         },
       ]
     }
@@ -83,6 +85,11 @@ export default {
       
       &:hover{
         color: white;
+      }
+
+      &.active{
+        color: white;
+        font-size: 16px;
       }
     }
   }
