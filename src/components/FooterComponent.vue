@@ -186,6 +186,10 @@ export default {
       padding: 30px;
       border-radius: 8px;
 
+      h3{
+        color: white;
+      }
+
       li{
         margin: 5px 0;
         font-size: 13px;
