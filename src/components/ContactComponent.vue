@@ -3,7 +3,7 @@
 
     <div class="col-7">
       <h6 class="section-title"> {{sectionTitle}} </h6>
-      <h2 class="title">Get in <span>Touch</span></h2>
+      <h2 class="title-light">Get in <span>Touch</span></h2>
       <p class="description"> {{description}} </p>
       <div class="input-wrapper">
         <div class="input-in-wrapper">
@@ -80,19 +80,8 @@ export default {
   .col-7{
     width: 60%;
     
-    .title{
-      margin: 20px 0;
-      color: $shark;
-    
-      span{
-        color: $surfieGreen;
-        background-color: rgba($fountainBlue, 0.3);
-        padding: 5px 10px;
-        border-radius: 3px;
-      }
-    }
-    
     .description{
+      margin-top: 20px;
       margin-bottom: 40px;
       color: $silverSand;
       width: 570px;
@@ -134,6 +123,13 @@ export default {
         border-radius: 5px;
         padding: 5px;
       }
+
+      .btn-light{
+        &:hover{
+          background-color: $blueLagoon;
+          border: 1 px solid $blueLagoon;
+        }
+      }
     }
   }
   .col-5{
@@ -147,15 +143,20 @@ export default {
     .contact{
       color: $silverSand;
 
-      .icon{
-        background-color: rgba($surfieGreen, 0.2);
-        color: $surfieGreen;
-        padding: 7px;
-        aspect-ratio: 1/1;
-        border-radius: 50%;
-        vertical-align: middle;
-        margin: 10px 0;
+      span{
+        cursor: pointer;
+
+        .icon{
+          background-color: rgba($surfieGreen, 0.2);
+          color: $surfieGreen;
+          padding: 7px;
+          aspect-ratio: 1/1;
+          border-radius: 50%;
+          vertical-align: middle;
+          margin: 10px 0;
+        }
       }
+
     }
   }
 }

@@ -67,6 +67,10 @@ export default {
 
       li{
         cursor: pointer;
+
+        &:hover{
+          color: white;
+        }
       }
     }
   }

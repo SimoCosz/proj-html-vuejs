@@ -3,7 +3,7 @@
   <div class="container">
     <div class="section-description">
       <h6 class="section-title"> {{sectionTitle}} </h6>
-      <h2 class="title">Latest <span>News</span></h2>
+      <h2 class="title-light">Latest <span>News</span></h2>
       <div class="info">
         <p class="description"> {{description}} </p>
         <BtnSeeAll class="btn" />
@@ -69,17 +69,6 @@ export default {
   padding: 80px 0;
 
   .container{
-    .title{
-      margin-bottom: 20px;
-      font-weight: 900;
-
-      span{
-        color: $surfieGreen;
-        background-color: rgba($fountainBlue, 0.3);
-        padding: 5px 10px;
-        border-radius: 3px;
-      }
-    }
 
     .info{
       margin-bottom: 20px;
@@ -95,11 +84,11 @@ export default {
       .btn{
         background-color: transparent;
         color: $surfieGreen;
-        border: 1px solid $surfieGreen;
+        border: 1px solid $blueLagoon;
         font-weight: 600;
         
         &:hover{
-          background-color: $surfieGreen;
+          background-color: $blueLagoon;
           color: white;
         }
       }

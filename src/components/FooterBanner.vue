@@ -34,7 +34,7 @@ export default {
   .container{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 15px;
     font-size: 12px;
 
     span{

@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <div class="container">
       <h6 class="section-title"> {{sectionTitle}} </h6>
-      <h2 class="title"> <span>Results</span> in Numbers </h2>
+      <h2 class="title-dark"> <span>Results</span> in Numbers </h2>
       <div class="data-wrapper">
         <ul>
           <li v-for="(el, i) in data" :key="i">
@@ -56,16 +56,8 @@ export default {
   text-align: center;
   color: white;
   
-  .title{
+  .title-dark{
     margin-bottom: 60px;
-    font-weight: 900;
-
-    span{
-      background-color: rgba(white, 0.1);
-      padding: 5px;
-      border-radius: 3px;
-    }
-    
   }
     
   .data-wrapper{

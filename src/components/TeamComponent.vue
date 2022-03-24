@@ -3,7 +3,7 @@
     <div class="card-wrapper">
       <section class="info">
         <h6 class="section-title"> {{sectionTitle}} </h6>
-        <h2 class="title"><span>Team</span> of Experts</h2>
+        <h2 class="title-light"><span>Team</span> of Experts</h2>
         <p class="description"> {{description}} </p>
       </section>
 
@@ -95,18 +95,6 @@ components: {
      width: 75%;
      
      .info{
-
-      .title{
-        margin: 20px 0;
-        color: $shark;
-
-        span{
-          color: $surfieGreen;
-          background-color: rgba($fountainBlue, 0.3);
-          padding: 5px 10px;
-          border-radius: 3px;
-        }
-      }
 
       .description{
         margin-bottom: 40px;

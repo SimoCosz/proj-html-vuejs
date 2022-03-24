@@ -3,7 +3,7 @@
     <div class="container">
 
         <h6 class="section-title"> {{sectionTitle}} </h6>
-        <h2 class="title"> Excellence in<span>Services</span> </h2>
+        <h2 class="title-dark"> Excellence in<span>Services</span> </h2>
 
         <section class="info">
           <p> {{description}} </p>
@@ -87,18 +87,6 @@ export default {
   padding: 80px 0;
 
   .container{
-    
-
-    .title{
-      margin-bottom: 20px;
-      font-weight: 900;
-
-      span{
-        background-color: rgba(white, 0.1);
-        padding: 5px 10px;
-        border-radius: 3px;
-      }
-    }
 
     .info{
       margin-bottom: 20px;

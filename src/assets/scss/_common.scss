@@ -49,6 +49,30 @@ a{
   font-weight: 700;
 }
 
+.title-dark{
+  margin-bottom: 20px;
+  font-weight: 900;
+
+  span{
+    background-color: rgba($fountainBlue, 0.3);
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+}
+
+.title-light{
+  margin-bottom: 20px;
+  color: $shark;
+  font-weight: 900;
+
+  span{
+    color: $surfieGreen;
+    background-color: rgba($fountainBlue, 0.3);
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+}
+
 .btn-light{
   background-color: transparent;
   border: 1px solid $surfieGreen;

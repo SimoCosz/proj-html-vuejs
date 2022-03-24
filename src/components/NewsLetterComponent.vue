@@ -3,7 +3,7 @@
     <div class="container">
       <div class="col-6">
         <h6 class="section-title"> {{sectionTitle}} </h6>
-        <h2 class="title"><span>Know</span> First</h2>
+        <h2 class="title-dark"><span>Know</span> First</h2>
         <p class="description"> {{description}} </p>
       </div>
       <div class="col-6">
@@ -47,12 +47,6 @@ export default {
       .title{
         margin-bottom: 20px;
         font-weight: 900;
-  
-        span{
-          background-color: rgba(white, 0.1);
-          padding: 5px 10px;
-          border-radius: 3px;
-        }
       }
   
       p{
